@@ -16,9 +16,18 @@ function fn() {
         "platformName": "Android",
         "platformVersion": "9.0",
         "deviceName": "emulator-5554",
-        "browserName": "Chrome",
-        "connectHardwareKeyboard": true
-      }
+        "connectHardwareKeyboard": true,
+        "newCommandTimeout" : 500,
+        "browserName": "Chrome"
+      },
+      nativeCaps: {
+        "app" : "C:\\Users\\Pawk73\\Documents\\Karate-Auto\\karate-Zen_Framework\\Zen_KarateFramework\\apk\\UiDemo.apk",
+        "platformName": "Android",
+        "platformVersion": "9.0",
+        "deviceName": "emulator-5554",
+        "connectHardwareKeyboard": true,
+        "newCommandTimeout" : 500
+        }
     }
   }
   if (env == 'prod') {
