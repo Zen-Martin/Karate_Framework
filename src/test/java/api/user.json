@@ -1,0 +1,11 @@
+{
+  "user": {
+    "createdAt":"2022-03-30T13:00:42.673Z",
+    "adress":"Douala-logpom",
+    "age":20,
+    "email":"super@hero.com",
+    "_id":"62445f714db47f10408d5d5d",
+    "__v":0
+  },
+  "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ1ZjcxNGRiNDdmMTA0MDhkNWQ1ZCIsImlhdCI6MTY0ODY0ODA0OSwiZXhwIjoxNjQ4NzM0NDQ5fQ.9s2H64zY-OFFr_unXaXXItUPuWwzJvn8Ng8L8yUlkf8"
+}
