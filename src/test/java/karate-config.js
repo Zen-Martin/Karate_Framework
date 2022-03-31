@@ -38,5 +38,9 @@ function fn() {
   }
   karate.configure('report', { showLog: true, showAllSteps: false } );
   karate.log('environnement utilisé pour ce test :', env);
+
+  var result = karate.callSingle('classpath:api/Ztrain.feature@login', config);
+      config.authInfo = { token: result.response.token , user: result.response.user._id };
+
   return config;
 };

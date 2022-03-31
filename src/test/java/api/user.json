@@ -1,11 +1,14 @@
 {
-  "user": {
-    "createdAt":"2022-03-30T13:00:42.673Z",
-    "adress":"Douala-logpom",
-    "age":20,
-    "email":"super@hero.com",
-    "_id":"62445f714db47f10408d5d5d",
-    "__v":0
-  },
-  "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNDQ1ZjcxNGRiNDdmMTA0MDhkNWQ1ZCIsImlhdCI6MTY0ODY0ODA0OSwiZXhwIjoxNjQ4NzM0NDQ5fQ.9s2H64zY-OFFr_unXaXXItUPuWwzJvn8Ng8L8yUlkf8"
+  "product":{
+  "createAt": "2022-03-31T08:54:17.430Z",
+  "isActive": false,
+  "comments": [
+  ],
+  "price": 300000,
+  "image": "https://www.frandroid.com/produits/samsung/smartphones/600933-samsung-galaxy-note-10-pro.png",
+  "description": "Le Samsung Galaxy Note10 Plus est un smartphone haut de gamme annoncé le 7 août 2019. Équipé du S Pen qui fait le succès de la gamme, il est équipé d'un écran AMOLED de 6,3 pouces et d'un triple capteur photo de 12+16+12 mégapixels",
+  "name": "Smartphone samsung galaxy S8+1648720238423",
+  "_id": "624579738de76c3928917be3",
+  "__v": 0
+}
 }
