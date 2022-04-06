@@ -1,7 +1,8 @@
 Feature: Test de apps web et apps native
+  #Before launch this make sur you have comment
 
   Scenario: connexion à l'intranet sur la version mobile du site
-    * configure driver = {type: 'android'}
+    * configure driver = {type: 'android', webDriverPath : "/wd/hub"}
     * def loginField = "//*[@resource-id='user_login']"
     * def passwordField = "//*[@resource-id='user_pass']"
     * def submitButton = "//*[@resource-id='wp-submit']"
@@ -16,7 +17,7 @@ Feature: Test de apps web et apps native
     Then match driver.text(nameValue) contains web.nom
 
   Scenario: android mobile native app test
-    * configure driver = {type: 'android'}
+    * configure driver = {type: 'android', webDriverPath : "/wd/hub"}
     Given driver mobile.nativeCaps
     And driver.click('#com.bs.droidaction:id/showTextCheckBox')
     * driver.clear('#com.bs.droidaction:id/showTextOnDelay')
