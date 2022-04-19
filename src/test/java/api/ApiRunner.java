@@ -2,7 +2,7 @@ package api;
 
 import com.intuit.karate.junit5.Karate;
 
-class UsersRunner {
+class ApiRunner {
 
     @Karate.Test
     Karate testUsers() {

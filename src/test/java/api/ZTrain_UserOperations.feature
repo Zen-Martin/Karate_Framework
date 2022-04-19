@@ -7,7 +7,7 @@ Feature: Ztrain API Automation
     * header Accept = 'application/json'
     Given path '/auth/login'
     And request {email: 'super@hero.com' , password:"123super"}
-    When method POST
+    And method POST
     And status 201
     * def userAccess = "Bearer " + response.token
     * def userId = response.user._id
